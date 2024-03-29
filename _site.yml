@@ -2,3 +2,9 @@ output:
   html_document:
     theme: readable
     highlight: pygments
+name: "my-website"
+navbar:
+  title: "My Website"
+left:
+  - text: "Home"
+href: index.html
