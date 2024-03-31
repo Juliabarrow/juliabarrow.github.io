@@ -8,7 +8,7 @@ output:
     highlight: kate 
 navbar:
   title: "Julia Barrow"
-  type: inverse #changes navbar color
+  #type: inverse #changes navbar color
   left:
     - text: "Home"
       href: index.html
@@ -23,7 +23,7 @@ navbar:
       menu:
       - text: "Decoding the Diamond"
         href: decoding-the-diamond.html
-      - text: "Spotify Data Analysis"
+      - text: "Spotify Data Modeling"
         href: spotify-data.html
       icon: fa-paperclip
   right:
