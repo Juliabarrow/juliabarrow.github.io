@@ -1,10 +1,29 @@
+name: "Julia Barrow Website"
+output_dir: docs
 output:
   html_document:
-    theme: readable
-    highlight: pygments
-name: "my-website"
+    self_contained: no
+    theme: journal
+    #toc: true
+    highlight: textmate 
 navbar:
-  title: "My Website"
-left:
-  - text: "Home"
-href: index.html
+  title: "Julia Barrow"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+#     - text: 'Whatever Menu' ## setting up a drop down menu
+# menu:
+#         - text: 'Whatever Menu 1'
+# href: whatevermenu1.html
+#         - text: 'Whatever Menu 2'
+# href: whatevermenu2.html
+#         - text: 'Whatever Menu 3'
+# href: whatevermenu3.html
+#     - text: 'Unicorns'
+# href: unicorns.html
+#     - text: 'Downloads'
+# href: downloads.html
+
+
