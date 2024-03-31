@@ -4,6 +4,3 @@ title: "Home"
 Hello world!
 
 Test 1 2 3
-
-[Github](https://github.com/Juliabarrow)
-[LinkedIn](https://www.linkedin.com/in/julia-barrow-/)

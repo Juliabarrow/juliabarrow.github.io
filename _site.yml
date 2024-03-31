@@ -5,25 +5,32 @@ output:
     self_contained: no
     theme: journal
     #toc: true
-    highlight: textmate 
+    highlight: kate 
 navbar:
   title: "Julia Barrow"
-  right:
+  type: inverse #changes navbar color
+  left:
     - text: "Home"
       href: index.html
+      icon: fa-home
     - text: "About"
       href: about.html
-#     - text: 'Whatever Menu' ## setting up a drop down menu
-# menu:
-#         - text: 'Whatever Menu 1'
-# href: whatevermenu1.html
-#         - text: 'Whatever Menu 2'
-# href: whatevermenu2.html
-#         - text: 'Whatever Menu 3'
-# href: whatevermenu3.html
-#     - text: 'Unicorns'
-# href: unicorns.html
-#     - text: 'Downloads'
-# href: downloads.html
+      icon: fa-book-open
+    - text: "Resume"
+      href: jb-resume.pdf
+      icon: fa-file
+    - text: "Projects"
+      menu:
+      - text: "Decoding the Diamond"
+        href: decoding-the-diamond.html
+      - text: "Spotify Data Analysis"
+        href: spotify-data.html
+      icon: fa-paperclip
+  right:
+    - href: https://github.com/Juliabarrow
+      icon: fa-brands fa-github
+    - href: https://www.linkedin.com/in/julia-barrow-/
+      icon: fa-brands fa-linkedin
 
-
+#useful site
+# https://rstudio4edu.github.io/rstudio4edu-book/rmd-dress.html
