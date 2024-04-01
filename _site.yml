@@ -2,10 +2,12 @@ name: "Julia Barrow Website"
 output_dir: docs
 output:
   html_document:
+    css: style.css
     self_contained: no
     theme: journal
     #toc: true
     highlight: kate 
+favicon: images/favicon.ico
 navbar:
   title: "Julia Barrow"
   #type: inverse #changes navbar color
