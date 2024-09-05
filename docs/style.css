@@ -1,0 +1,35 @@
+/*----------------ADDING WHITE SPACE-------------*/
+
+.title {
+  margin-top: 2em !important;
+  margin-bottom: 0.75em;
+}
+
+.section h1,
+.section h2, 
+.section h3, 
+.section h4, 
+.section h5 { 
+  padding-top: 3em !important; /*adding so much padding because theme adds a margin-top: -65px by default */
+  margin-bottom: 0.75em;
+}
+
+  #header.fluid-row::before {
+   content: "";
+   height: 150px;
+   width: 150px;
+   float: right;
+   background-image: url("image.png");
+   background-size: contain;
+   background-position: center center;
+   background-repeat: no-repeat;
+ }
+
+/* links */
+a { 
+  color: #8FBC8B;
+}
+
+a:hover {
+ color: #SeaGreen; /* darker color when hovering */
+}
