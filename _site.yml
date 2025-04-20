@@ -12,12 +12,12 @@ navbar:
   title: "Julia Barrow"
   #type: inverse #changes navbar color
   left:
-    - text: "Home"
+    - text: "About"
       href: index.html
       icon: fa-home
-    - text: "About"
-      href: about.html
-      icon: fa-book-open
+    # - text: "About"
+    #   href: about.html
+    #   icon: fa-book-open
     - text: "Resume"
       href: jb-resume.pdf
       icon: fa-file

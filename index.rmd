@@ -1,5 +1,28 @@
 ---
-title: "Home"
+title: "Hi, I'm Julia"
+output:
+  html_document:
+    css: style.css
 ---
 
-"test123"
+<!-- ![](images/headshot.jpg) -->
+
+<div class="main-content">
+
+I'm a data scientist and AI developer currently based out of Washington, D.C.
+
+When I'm not working with data, ...
+
+</div>
+
+<div class="sidebar-bio">
+  <img src="images/headshot.jpg" alt="My photo" class="profile-pic" />
+  <p><strong>Julia Barrow</strong><br>
+  <i class="fa fa-map-marker"></i>Washington, D.C.<br>
+  <i class="fa fa-envelope"></i> <a href="mailto:julia.d.barrow@icloud.com">julia.d.barrow@icloud.com</a><br>
+  </p>
+  <br>
+  <p><i class="fa fa-code"></i>Python, R, SQL, Git<br>
+  <i class="fa fa-globe"></i>English, Italian, Spanish
+  </p>
+</div>

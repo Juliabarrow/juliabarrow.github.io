@@ -33,3 +33,48 @@ a {
 a:hover {
  color: #SeaGreen; /* darker color when hovering */
 }
+
+.sidebar-bio {
+  position: absolute;
+  top: 120px;
+  right: 40px;
+  width: 350px;
+  padding: 15px;
+  background-color: #f3f3f3;
+  border-left: 3px solid #aaa;
+  font-size: 1.3em;
+  border-radius: 8px;
+}
+
+.sidebar-bio a {
+  text-decoration: none;
+  color: #SeaGreen;
+}
+
+.sidebar-bio i {
+  margin-right: 8px; /* Adjust this to your preferred space */
+}
+
+.profile-pic {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+/* Widen the main body container */
+body .container {
+  max-width: 100%;
+  width: 100%;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
+
+/* Main content area — give space for sidebar */
+.main-content {
+  max-width: 700px;
+  margin-right: 300px; /* Leave space for sidebar */
+}
+
+
+
+
